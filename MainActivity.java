@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                MQTTSender("topic/luce","switch","tcp://192.168.1.2:1883","Test","username","password");
+                MQTTSender("topic/test","content","tcp://192.168.1.2:1883","Test","username","password");
 
             }
         });
